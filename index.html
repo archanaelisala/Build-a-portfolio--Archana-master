@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--some meta data for search engine-->
+    <meta name="description" content="Tilak babu - Student">
+    <meta name="keywords"
+          content="APSSDC, Portfolio, full-stack, frontend, web development, HTML, CSS, JS, JavaScript">
+    <meta name="author" content="Tilak babu">
+
+    <title>APSSDC Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/apssdc.ico">
+    <link rel="shortcut icon" href="images/apssdc.ico" sizes="16x16 32x32 48x48" type="image/png">
+    <link rel="icon" href="images/apssdc.ico" sizes="128x128" type="image/png">
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+    <!--Bootstrap and customised style-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <header>
+        <div class="row">
+            <!--image on the left-->
+            <div class="col-md-6 col-sm-4 col-xs-4">
+                <img class="title-logo" src="images/apssdc_logo.png" alt="Leopard logo">
+            </div>
+            <!--title on the right-->
+            <div class="title-super col-md-6 col-sm-8 col-xs-8 text-right text-uppercase">
+                <h1>Andhra pradesh State Skill Development Corporation</h1>
+                <!-- About us button -->
+                <button type="button" class="btn btn-default pull-right button-style" data-toggle="modal"
+                        data-target="#AboutUs">About Us
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </header>
+
+    <!--Bootstrap carousel -->
+    <!-- Reference: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="container">  
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="images/slider1.jpg" alt="snap of engineering college lab" style="width:100%;">
+                  </div>
+
+                  <div class="item">
+                    <img src="images/slider2.jpg" alt="Demonetization and casheless economy" style="width:100%;">
+                  </div>
+                
+                </div>
+
+                <!-- Prev and Next controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span>Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span>Next</span>
+                </a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="row">
+        <header class="col-md-12 section">
+            <h2 class="programs-title">Programs</h2>
+        </header>
+
+        <article class="col-md-4">
+            <img class="img-responsive img-circle img-thumbnail mouse-hover " data-toggle="modal"
+                 data-target="#SIP"
+                 src="images/SIP.png" alt="Skill Improvement Program">
+            <h3 class="title">Skill Improvement  Program</h3>
+        </article>
+
+        <article class="col-md-4">
+            <img class="img-responsive img-circle img-thumbnail mouse-hover"
+                 src="images/FIP.png" alt="Faculty Improvement Program" data-toggle="modal" data-target="#FIP">
+            <h3 class="title">Faculty Improvement Program</h3>
+        </article>
+
+        <article class="col-md-4">
+            <img class="img-responsive img-circle img-thumbnail mouse-hover"
+                 src="images/PIP.png" alt="Placement Improvement Program" data-toggle="modal" data-target="#PIP">
+            <h3 class="title">Placement Improvement Program</h3>
+        </article>
+    </section>
+
+    <!--footer-->
+    <footer class="col-md-12">
+        <p>Designed & Developed by   <a href="#">Tilak Babu Bopparaju</a>,
+            <a href="http://engineering.apssdc.in" target="_blank">APSSDC</a>
+        </p>
+    </footer>
+</div>
+
+<!--Modal pop out information when clicking the program pictures-->
+<div class="modal fade" id="AboutUs" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content About us -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">ABOUT ORGANIZATION</h3>
+            </div>
+            <div class="modal-body">
+                <article>
+                    <h4 class="big">
+                        The Govt. of AP has formed 7 different ‘Missions’ to achieve double digit growth for the state and to make AP among the most developed state in the country. Among these, the ‘Knowledge and Skills Mission’ has been formed to provide trained and skilled manpower to all other Missions.
+
+                        To bring the faster execution State Government Andhra Pradesh has established The Department of Skill Development, Entrepreneurship and Innovation (DSDEI) has been further created to coordinate and synergize skilling efforts of all departments. Under which APSSDC and SEEDAP is formed.
+
+                        Context
+
+                        To target 20 million people in AP in next 15 years towards skilling and entrepreneurship to meet skilled human power demands of all Missions and shape AP as the skilled-workforce and knowledge hub for the world
+
+                        Vision
+
+                        The Government of Andhra Pradesh has the vision (Swarna Andhra Vision 2029) to make Andhra Pradesh among the three best states in India by 2022 when India celebrates its 75th year of independence and to achieve the status of a developed state by 2029.
+
+                        Mission
+
+                        Andhra Pradesh itself will have a requirement of approximately 10 million Skilled workers between 2012 till 2022, across the high-priority and emerging sectors.
+
+                        Andhra Pradesh - Scenario
+
+                        Andhra Pradesh has a population of 4.94 Crore as 10 populous state of country. The state has 13 districts,Andhra Pradesh is strategically located with a 974 km coastline,  The state has 30 existing urban centers, 3 mega cities and 12 smart cities planned. Andhra Pradesh has a huge potential for the job market as the various industrial belts are been planned.
+                    </h4>
+                </article>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="SIP" role="dialog">
+    <div class="modal-dialog">
+        <!-- Skill improvement program details-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Skill Improvement Program</h3>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <img class="img-responsive" src="images/SIP_Modal.png" alt="Skill Improvement Program">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="FIP" role="dialog">
+    <div class="modal-dialog">
+        <!-- Faculty improvement program details-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Faculty Improvement Program</h3>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <img class="img-responsive" src="images/FIP_Modal.png" alt="Faculty Improvement Program">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="PIP" role="dialog">
+    <div class="modal-dialog">
+        <!-- Placement improvement program details-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Placement Improvement Program</h3>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <img class="img-responsive" src="images/PIP_Modal.png" alt="Placement Improvement Program">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
