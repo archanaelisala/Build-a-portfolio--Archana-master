@@ -1,7 +1,7 @@
-Project 1: 
+Project : 
 Build a Portfolio Site
 
-##by M Srinivasa Reddy 
+##by E Archana 
 
 Build a Portfolio Site project, 
 ##part of the Udacity [Full Stack Web Developer
